@@ -10,7 +10,6 @@
     "watch": "tsc -w",
     "test": "jest",
     "lint": "eslint '*/**/*.{js,ts}' --quiet --fix",
-    "cdk": "rimraf cdk.out && cdk",
     "prettier": "prettier --write . && git add -A .",
     "deploy": "cdk deploy"
   },
